@@ -1,6 +1,6 @@
 {
   "name": "mocha-jenkins-reporter",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "jenkins reporter for mocha",
   "main": "index.js",
   "directories": "./lib",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/juhovh/mocha-jenkins-reporter.git"
+    "url": "https://github.com/kotsie/mocha-jenkins-reporter.git"
   },
   "keywords": [
     "mocha",
@@ -17,12 +17,12 @@
     "reporter"
   ],
   "dependencies": {
-    "mocha": ">=2.0.0",
+    "mocha": "^2.0.0",
     "diff": "1.0.7"
   },
-  "author": "Juho Vähä-Herttua",
+  "author": ["Juho Vähä-Herttua", "kotsie"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/futurice/mocha-jenkins-reporter/issues"
+    "url": "https://github.com/kotsie/mocha-jenkins-reporter/issues"
   }
 }
